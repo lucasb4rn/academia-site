@@ -1,0 +1,22 @@
+.contato {
+    line-height: 25px;
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.flex-contato {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    box-sizing: border-box;
+    width: 15%;
+    height: 100px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 2px grey;
+    
+}

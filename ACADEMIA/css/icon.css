@@ -1,0 +1,27 @@
+.icone {
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 250px;
+}
+
+
+.icone .icone-link {
+    position: relative;    
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+
+.icone .icone-link i a {
+    padding: 10px;
+    box-sizing: unset;
+    position: absolute;
+    left: 20%;
+    text-decoration: none;
+    
+}
+
+

@@ -1,0 +1,83 @@
+.texto-home {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    top: 40%;
+    left: 30%;
+    z-index: 10;
+    color: white;
+    padding: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.texto-home .linha1{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.sublinhado1 {
+    height: 1px;
+    display: block;
+    width: 100%;
+    background: black;
+    margin-bottom: 20px;
+    animation: 1 move 4s linear;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.sublinhado2 {
+    height: 1px;
+    display: block;
+    width: 100%;
+    background: black;
+    margin-top: 20px;
+    
+}
+
+.sublinhado2::before {
+    content: '';
+    height: 1px;
+    display: block;
+    width: 100%;
+    background: white;
+    margin-top: 20px;
+    animation: 1  move1 4s reverse linear ;
+    animation-fill-mode: forwards;
+    
+}
+
+
+
+@keyframes move {
+
+    100% {
+        
+        width: 100%;
+
+    } to {
+        width: 0;
+    }
+
+}
+
+
+@keyframes move1 {
+    100% {
+        width: 100%;
+
+    } to {
+        width: 0;
+    }
+
+}
+

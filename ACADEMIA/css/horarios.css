@@ -1,0 +1,34 @@
+.horarios {
+    width: 100vw;
+    height: 100vh;
+    background: #e6e7e9;
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 60px;
+}
+
+.titulo::before {
+    margin-bottom: 20px;
+    display: block;
+    content: '';
+    background: black;
+    text-decoration: overline;
+    height: 2px;
+    width: 250px;
+    z-index: 1000;
+}
+
+
+.titulo::after {
+    margin-top: 20px;
+    display: block;
+    z-index: 1000;
+    height: 2px;
+    width: 250px;
+    content:'';
+    background: black;
+    text-decoration: underline;
+}
